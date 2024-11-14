@@ -13,9 +13,6 @@ const App = () => {
   }, [dispatch])
   return (
     <div>
-      <button data-custom-open="modal-1">
-        Add New Product
-      </button>
       <ProductsList />
       <CreateProduct />
     </div>
